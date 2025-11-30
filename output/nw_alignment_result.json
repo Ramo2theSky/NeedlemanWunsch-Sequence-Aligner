@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-28T20:44:01.946893",
+    "algorithm": "Needleman-Wunsch (Global Alignment)"
+  },
+  "sequences": {
+    "seq1": {
+      "id": "NC_026992.1",
+      "length": 16480
+    },
+    "seq2": {
+      "id": "NC_000845.1",
+      "length": 16613
+    }
+  },
+  "alignment": {
+    "score": 31410.0,
+    "length": 16616
+  },
+  "statistics": {
+    "matches": 16055,
+    "mismatches": 422,
+    "gaps_seq1": 136,
+    "gaps_seq2": 3,
+    "total_gaps": 139,
+    "identity_percent": 96.62,
+    "gap_percentage": 0.42
+  }
+}

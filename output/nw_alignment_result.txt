@@ -1,0 +1,72 @@
+================================================================================
+NEEDLEMAN-WUNSCH ALIGNMENT RESULT
+================================================================================
+
+Timestamp: 2025-11-28 20:44:01
+
+SEQUENCE INFORMATION
+--------------------------------------------------------------------------------
+Seq1: NC_026992.1 (16480 bp)
+Seq2: NC_000845.1 (16613 bp)
+
+ALIGNMENT PARAMETERS
+--------------------------------------------------------------------------------
+Match score: 2
+Mismatch score: -1
+Gap penalty: -2
+
+ALIGNMENT RESULTS
+--------------------------------------------------------------------------------
+Alignment Score: 31410.0
+Alignment Length: 16616 bp
+
+VISUALIZATION (first 500 bp)
+--------------------------------------------------------------------------------
+Seq1: CAACCAAAACAAGCATTCCATTCGTATGCAAACCAAAACGCCAAGTACTTAATTACTATC
+      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Seq2: CAACCAAAACAAGCATTCCATTCGTATGCAAACCAAAACGCCAAGTACTTAATTACTATC
+
+Seq1: TTTAAAACAAAAAAACCCATAAAAATTCCGCACAAACATACAAATATGCGACCCCAAAAA
+      |||||||||||||||||||||||||||.||||||||||||||||||||.|||||||||||
+Seq2: TTTAAAACAAAAAAACCCATAAAAATTGCGCACAAACATACAAATATGTGACCCCAAAAA
+
+Seq1: TTTAACCATTAAAAACCAAAAAATTTAATATATTATAGCCCTATGTACGTCGTGCATTAA
+      |||.||||||.|||||||||||||.|||||||.||||.||||||||||||||||||||||
+Seq2: TTTTACCATTGAAAACCAAAAAATCTAATATACTATAACCCTATGTACGTCGTGCATTAA
+
+Seq1: TTGCTAGTCCCCATGCATATAAGCATGTACATACTATTATTAATATTACATAGTACATAT
+      |||||||||||||||||||||||||||||||||.||||||||||||||||||||||||||
+Seq2: TTGCTAGTCCCCATGCATATAAGCATGTACATATTATTATTAATATTACATAGTACATAT
+
+Seq1: TATTATTGATCGTACATAGCACATATCATGTCAAATAACTCCAGTCAGCATGCATATCAC
+      |||||||||||||||||||||||||||||||||||||||||||||||.||||||||||||
+Seq2: TATTATTGATCGTACATAGCACATATCATGTCAAATAACTCCAGTCAACATGCATATCAC
+
+Seq1: CACCATTAGATCACGAGCTTAACTACCATGCCGCGTGAAACCAGCAACCCGCTTGGCAGG
+      |||||.||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Seq2: CACCACTAGATCACGAGCTTAACTACCATGCCGCGTGAAACCAGCAACCCGCTTGGCAGG
+
+Seq1: GATCCCTCTTCTCGCTCCGGGCCCATGAATTGTGGGGGTTTCTATTAATGAACTTTAACA
+      ||||||||||||||||||||||||||.||..|||||||||||||||.|||||||||||||
+Seq2: GATCCCTCTTCTCGCTCCGGGCCCATAAACCGTGGGGGTTTCTATTGATGAACTTTAACA
+
+Seq1: GGCATCTGGTTCTTACTTCAGGACCATCTCACCTAAAATCGCCCACTCTTTCCTCTTAAA
+      |||||||||||||||||||||||||||||||||||||||||||||||||||||.||||||
+Seq2: GGCATCTGGTTCTTACTTCAGGACCATCTCACCTAAAATCGCCCACTCTTTCCCCTTAAA
+
+Seq1: TAAGACATCTCGATGGACTAATGACTAATCAGCCCATGCTCACACATAACTGAGGTTTCA
+      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Seq2: TAAGACATCTCGATGGACTAATGACTAATCAGCCCATGCTCACACATAACTGAGGTTTCA
+
+STATISTICS
+--------------------------------------------------------------------------------
+            Metrik    Nilai
+  Alignment Length    16616
+           Matches    16055
+        Mismatches      422
+          Gap Seq1      136
+          Gap Seq2        3
+        Total Gaps      139
+      Identity (%)    96.62
+Gap Percentage (%)     0.42
+   Alignment Score  31410.0
