@@ -84,7 +84,7 @@ Total Gaps:       {stats['gaps']} ({stats['gap_percentage']:.2f}%)
         output_path = Path(output_file)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(str(output_path), dpi=300, bbox_inches='tight')
-        print(f"✓ Figure saved to: {output_file}")
+        print(f"[+] Figure saved to: {output_file}")
     else:
         plt.show()
     
@@ -126,7 +126,7 @@ def plot_percentage_distribution(result: Dict, output_file: Optional[str] = None
         output_path = Path(output_file)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(str(output_path), dpi=300, bbox_inches='tight')
-        print(f"✓ Figure saved to: {output_file}")
+        print(f"[+] Figure saved to: {output_file}")
     else:
         plt.show()
     
@@ -169,7 +169,7 @@ def plot_gap_analysis(result: Dict, output_file: Optional[str] = None) -> None:
         output_path = Path(output_file)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(str(output_path), dpi=300, bbox_inches='tight')
-        print(f"✓ Figure saved to: {output_file}")
+        print(f"[+] Figure saved to: {output_file}")
     else:
         plt.show()
     
